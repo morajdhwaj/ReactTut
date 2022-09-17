@@ -1,13 +1,16 @@
-const fabfruit = 'kivi';
+import React from 'react'
+import Rungta from './Collage'
+import HomePage from './HomePage'
 
-const fabprog ='react js';
+const App = () => {
+  return (
+    <>
+    <HomePage/>
+    <Rungta/>
+    </>
 
-function MyName (){
-  let name = 'moraj';
-  return name;
 
-  
+  )
 }
 
-export default fabfruit; 
-export {fabprog ,MyName };
+export default App

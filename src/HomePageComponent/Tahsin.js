@@ -5,7 +5,6 @@ const Tahsin = () => {
   return (
     <div>SEcond file  
 
-        <Moraj/>
     </div>
   )
 }
